@@ -40,7 +40,7 @@
 
             <li class="nav-item has-treeview {{ Route::is('user.addview') || Route::is('user.index')  ? 'menu-open' : '' }}">
               <a href="#" class="nav-link">
-                <i class="nav-icon fa-solid fa-users-gear"></i>
+                <i class="fa-solid fa-users"></i>
                   <p>
                       Manage Users
                       <i class="fas fa-angle-left right"></i>
@@ -49,7 +49,7 @@
               <ul class="nav nav-treeview">
                   <li class="nav-item">
                       <a href="{{route('user.addview')}}" class="nav-link {{ Route::is('user.addview') ? 'active' : '' }}">
-                          <i class="fas fa-user-plus nav-icon"></i>
+                        <i class="fa-solid fa-plus nav-icon"></i>
                           <p>Add Users</p>
                       </a>
                   </li>
